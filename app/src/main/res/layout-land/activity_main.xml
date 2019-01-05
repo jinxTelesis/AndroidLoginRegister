@@ -3,6 +3,8 @@
 <!-- the layout files have two copies one for landscape and one for port
 Author is Andre Lussier
 draws the splash screen that is display for 2 seconds -->
+
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,8 +12,6 @@ draws the splash screen that is display for 2 seconds -->
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:background="@drawable/jinxsplash2">
-
-
 
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
