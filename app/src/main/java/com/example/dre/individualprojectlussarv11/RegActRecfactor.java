@@ -59,6 +59,36 @@ public class RegActRecfactor extends AppCompatActivity {
         this.eTEm = (EditText) findViewById(R.id.eTEM);
         final LoginBackend backend = new LoginBackend();
 
+        eTFN.setOnFocusChangeListener((v,c) ->{
+            eTFN.setTextColor(Color.BLACK);
+            eTFN.setText("");
+        });
+
+        eTLN.setOnFocusChangeListener((v,c) ->{
+            eTLN.setTextColor(Color.BLACK);
+            eTLN.setText("");
+        });
+
+        eTUN.setOnFocusChangeListener((v,c) ->{
+            eTUN.setTextColor(Color.BLACK);
+            eTUN.setText("");
+        });
+
+        eTP.setOnFocusChangeListener((v,c) ->{
+            eTP.setTextColor(Color.BLACK);
+            eTP.setText("");
+        });
+
+        eTDOB.setOnFocusChangeListener((v,c) ->{
+            eTDOB.setTextColor(Color.BLACK);
+            eTDOB.setText("");
+        });
+
+        eTEm.setOnFocusChangeListener((v,c) -> {
+            eTEm.setTextColor(Color.BLACK);
+            eTEm.setText("");
+        });
+
         mRegB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
